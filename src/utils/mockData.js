@@ -1,28 +1,4 @@
-import ReactDOM from "react-dom/client";
-import React from "react";
-
-const Header = () => {
-  return (
-    <div className="header">
-      <div className="logo-container">
-        <img
-          className="logo"
-          src="https://i.ibb.co/KpZxDDgV/images-1.png"
-          alt="Logo"
-        />
-      </div>
-      <div className="nav-items">
-        <ul>
-          <li>Home</li>
-          <li>Contact Us</li>
-          <li>About</li>
-        </ul>
-      </div>
-    </div>
-  );
-};
-
-const resList = [
+const mockData = [
   {
     "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
     info: {
@@ -736,52 +712,4 @@ const resList = [
   },
 ];
 
-const ResCard = (props) => {
-  const {cloudinaryImageId, name, cuisines, avgRatingString, sla } = props?.resData?.info;
-  return (
-    
-    <div className="res-card">
-      <div className="res-logo">
-        <img
-          src={
-            "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/" +
-            cloudinaryImageId
-          }
-          alt="res-logo"
-        />
-      </div>
-      <div className="res-data">
-        <h2>{name}</h2>
-        <h3>{cuisines.join(", ")}</h3>
-        <p> {avgRatingString} star</p>
-        <p> {sla.deliveryTime} Min</p>
-      </div>
-    </div>
-  );
-};
-
-const Body = () => {
-  return (
-    <div className="body-container">
-      <div className="search">Search</div>
-      <div className="res-container">
-        {resList.map((resturent) => (
-            <ResCard key={resturent.info.id} resData={resturent} />
-        ))}
-      </div>
-    </div>
-  );
-};
-
-const Applayout = () => {
-  return (
-    <div className="app">
-      <Header />
-      <Body />
-    </div>
-  );
-};
-
-const root = ReactDOM.createRoot(document.getElementById("root"));
-
-root.render(<Applayout />);
+export default mockData;
