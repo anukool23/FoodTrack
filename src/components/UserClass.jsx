@@ -19,11 +19,12 @@ class UserClass extends React.Component{
         this.setState({userInfo:json})
     }
     render(){
-        const {name} = this.state.userInfo
+        const {name} = this.state.userInfo;
+        
         return (
     <div className='user-card'>
         <h1>{name} </h1>
-         </div>
+    </div>
   )
     }
 }
