@@ -3,6 +3,8 @@ import mockData from "../utils/mockData";
 import { useEffect, useState } from "react";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
+import useOnlineStatus from '../utils/useOnlineStatus';
+import useOnlineStatus from "../utils/useOnlineStatus";
 
 const Body = () => {
   const [list, setList] = useState([]);
@@ -26,6 +28,9 @@ const Body = () => {
     setListOfRestaurants( jsonData?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle
         ?.restaurants);
   };
+
+  const onlineStatus = useOnlineStatus();
+  if(!onlineStatus) return <h1>Offline</h1>
   if (list.length === 0) {
     return <Shimmer />;
   }
