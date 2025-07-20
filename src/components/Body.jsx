@@ -37,11 +37,11 @@ const Body = () => {
   return (
     <div className="body">
       <div className="filter-container">
-        <div className="search">
+        <div className="m-4 p-4">
           <input
             type="text"
             placeholder="Search"
-            className="search-box"
+            className="border-black-300 border-solid border-2 bg-stone-400"
             value={searchText}
             onChange={(e) => {
               setSearchText(e.target.value);
@@ -83,7 +83,7 @@ const Body = () => {
           </button>
         </div>
       </div>
-      <div className="res-container">
+      <div className="flex flex-wrap">
         {listOfRestaurants.map((restuarant) => (
           <Link to={"/restaurants/"+restuarant.info.id} key={restuarant.info.id}><ResCard  resData={restuarant}/></Link>
         ))}
