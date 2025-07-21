@@ -1,12 +1,13 @@
-import ResCard from "./ResCard";
+import ResCard, { withPromotedLabel } from "./ResCard";
 import mockData from "../utils/mockData";
 import { useEffect, useState } from "react";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
-import useOnlineStatus from '../utils/useOnlineStatus';
+import useOnlineStatus from "../utils/useOnlineStatus";
 import useOnlineStatus from "../utils/useOnlineStatus";
 
 const Body = () => {
+  const LabelPromoted = withPromotedLabel(ResCard);
   const [list, setList] = useState([]);
   const [listOfRestaurants, setListOfRestaurants] = useState([]);
   const [searchText, setSearchText] = useState("");
@@ -24,13 +25,15 @@ const Body = () => {
     setList(
       jsonData?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle
         ?.restaurants
-      );
-    setListOfRestaurants( jsonData?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle
-        ?.restaurants);
+    );
+    setListOfRestaurants(
+      jsonData?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle
+        ?.restaurants
+    );
   };
 
   const onlineStatus = useOnlineStatus();
-  if(!onlineStatus) return <h1>Offline</h1>
+  if (!onlineStatus) return <h1>Offline</h1>;
   if (list.length === 0) {
     return <Shimmer />;
   }
@@ -85,7 +88,13 @@ const Body = () => {
       </div>
       <div className="flex flex-wrap">
         {listOfRestaurants.map((restuarant) => (
-          <Link to={"/restaurants/"+restuarant.info.id} key={restuarant.info.id}><ResCard  resData={restuarant}/></Link>
+          <Link
+            to={"/restaurants/" + restuarant.info.id}
+            key={restuarant.info.id}
+          >
+            {restuarant.info.isOpen ? <LabelPromoted resData={restuarant} /> :
+            <ResCard resData={restuarant} />}
+          </Link>
         ))}
       </div>
     </div>
