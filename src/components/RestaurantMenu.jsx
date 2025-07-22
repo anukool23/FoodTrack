@@ -10,6 +10,7 @@ const RestaurantMenu = () => {
   const resInfo = useRestaurant(resId);
   const info = resInfo?.data?.cards?.find((card) => card?.card?.card?.info)
     ?.card?.card?.info;
+    const [showIndex, setShowIndex] = useState(0);
   if (!resInfo) return <Shimmer />;
 
   const { name, cuisines, cloudinaryImageId, costForTwoMessage } = info;
@@ -28,10 +29,13 @@ const RestaurantMenu = () => {
     <div className="text-center">
       <h1 className="font-bold text-2xl text-center m-4">{name}</h1>
       <h1>{cuisines.join(", ")}</h1>
-      {categories.map((category)=>(
-      <MenuCategory key={category?.card?.card?.title} data={category?.card?.card}/>
+      {categories.map((category,index) => (
+        <MenuCategory
+          key={category?.card?.card?.title}
+          data={category?.card?.card}
+          showItems={index === showIndex && true}
+        />
       ))}
-      
     </div>
   );
 };
