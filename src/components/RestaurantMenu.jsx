@@ -10,7 +10,7 @@ const RestaurantMenu = () => {
   const resInfo = useRestaurant(resId);
   const info = resInfo?.data?.cards?.find((card) => card?.card?.card?.info)
     ?.card?.card?.info;
-    const [showIndex, setShowIndex] = useState(0);
+    const [showIndex, setShowIndex] = useState(null);
   if (!resInfo) return <Shimmer />;
 
   const { name, cuisines, cloudinaryImageId, costForTwoMessage } = info;
@@ -34,6 +34,7 @@ const RestaurantMenu = () => {
           key={category?.card?.card?.title}
           data={category?.card?.card}
           showItems={index === showIndex && true}
+          setShowIndex={() => setShowIndex(index)}
         />
       ))}
     </div>

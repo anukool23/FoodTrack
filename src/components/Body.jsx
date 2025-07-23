@@ -1,10 +1,11 @@
 import ResCard, { withPromotedLabel } from "./ResCard";
 import mockData from "../utils/mockData";
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
 import useOnlineStatus from "../utils/useOnlineStatus";
+import UserContext from "../utils/UserContext";
 
 const Body = () => {
   const LabelPromoted = withPromotedLabel(ResCard);
@@ -36,7 +37,8 @@ const Body = () => {
   if (!onlineStatus) return <h1>Offline</h1>;
   if (list.length === 0) {
     return <Shimmer />;
-  }
+}
+const {loggedInUser, setUserName} = useContext(UserContext);
   return (
     <div className="body">
       <div className="filter-container">
@@ -84,6 +86,10 @@ const Body = () => {
           >
             Top Rated Restuarents
           </button>
+        </div>
+        <div className="filter">
+          <label>UserName :</label>
+          <input type="text" className="border border-black p-2" onChange={(e)=>setUserName(e.target.value)} value={loggedInUser}></input>
         </div>
       </div>
       <div className="flex flex-wrap">
