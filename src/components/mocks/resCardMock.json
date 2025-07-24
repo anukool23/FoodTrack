@@ -1,0 +1,323 @@
+{
+    "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+    "title": "Appetizer",
+    "itemCards": [
+        {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                    "id": "135319287",
+                    "name": "Cheezy Sprinkled Fries",
+                    "category": "Appetizer",
+                    "description": "Serves 1 | Baked fries seasoned with cheezy seasoning (213 Kcal/100g) Contains Cereals containing Gluten (Wheat), Soya and Milk & Milk Products.",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/16/0d0300d1-65e2-4102-b275-b1db003a6e56_f752e6cd-3a83-47a2-a6d6-97d2c4c19402.jpg",
+                    "inStock": 1,
+                    "isVeg": 1,
+                    "price": 10900,
+                    "variants": {},
+                    "variantsV2": {},
+                    "itemAttribute": {
+                        "vegClassifier": "VEG",
+                        "portionSize": "Serves 1"
+                    },
+                    "ribbon": {},
+                    "type": "ITEM",
+                    "itemBadge": {},
+                    "badgesV2": {},
+                    "ratings": {
+                        "aggregatedRating": {
+                            "rating": "2.9",
+                            "ratingCount": "5 ratings",
+                            "ratingCountV2": "5"
+                        },
+                        "ratingsPresentationConfig": {
+                            "bgGradient": {
+                                "colours": [
+                                    "#FFF0CD",
+                                    "#FFFFFF"
+                                ],
+                                "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                            },
+                            "ratingIconColor": "rating_low",
+                            "ratingTextColor": "rating_low",
+                            "ratingCountTextColor": "rating_low",
+                            "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                            "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                        }
+                    }
+                },
+                "analytics": {},
+                "hideRestaurantDetails": true
+            }
+        },
+        {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                    "id": "135319295",
+                    "name": "BBQ Baked Chicken Wings 6pc",
+                    "category": "Appetizer",
+                    "description": "All new baked BBQ chicken wings. Its juicy, spicy & so much flaourful (206 Kcal/100g) Contains Cereals containing Gluten (Wheat) & Soya.",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/16/1af9446c-7ee3-49da-9735-68bbd8d37aaa_2602e279-23b9-47c6-bb94-1a006634c2d9.jpg",
+                    "inStock": 1,
+                    "price": 26900,
+                    "variants": {},
+                    "variantsV2": {},
+                    "itemAttribute": {
+                        "vegClassifier": "NONVEG"
+                    },
+                    "ribbon": {},
+                    "type": "ITEM",
+                    "itemBadge": {},
+                    "badgesV2": {},
+                    "ratings": {
+                        "aggregatedRating": {
+                            "rating": "3.9",
+                            "ratingCount": "4 ratings",
+                            "ratingCountV2": "4"
+                        },
+                        "ratingsPresentationConfig": {
+                            "bgGradient": {
+                                "colours": [
+                                    "#D9EFEC",
+                                    "#FFFFFF"
+                                ],
+                                "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                            },
+                            "ratingIconColor": "rating_medium",
+                            "ratingTextColor": "rating_medium",
+                            "ratingCountTextColor": "rating_medium",
+                            "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                            "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                        }
+                    }
+                },
+                "analytics": {},
+                "hideRestaurantDetails": true
+            }
+        },
+        {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                    "id": "135319296",
+                    "name": "BBQ Baked Chicken Wings 4pc",
+                    "category": "Appetizer",
+                    "description": "All new baked BBQ chicken wings. Its juicy, spicy & so much flaourful (206 Kcal/100g) Contains Cereals containing Gluten (Wheat) & Soya.",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/16/a0eeb5d3-b04a-4a1e-addb-40fca47a6b20_e14ca512-d869-4538-a13a-5b95582d4ac3.jpg",
+                    "inStock": 1,
+                    "price": 21900,
+                    "variants": {},
+                    "variantsV2": {},
+                    "itemAttribute": {
+                        "vegClassifier": "NONVEG"
+                    },
+                    "ribbon": {},
+                    "type": "ITEM",
+                    "itemBadge": {},
+                    "badgesV2": {},
+                    "ratings": {
+                        "aggregatedRating": {}
+                    }
+                },
+                "analytics": {},
+                "hideRestaurantDetails": true
+            }
+        },
+        {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                    "id": "114789314",
+                    "name": "Sprinkled Fries - New",
+                    "category": "Appetizer",
+                    "description": "Serves 1 | Baked fries seasoned with our signature peruvian seasoning (204 Kcal/100g) Contains Cereals containing Gluten (Wheat), Soya and Milk & Milk Products.",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/16/366ad3ca-9597-4f0a-aa87-66ff29d4204d_8ee697df-7baa-49df-87dc-d6277bcf73fa.jpg",
+                    "inStock": 1,
+                    "isVeg": 1,
+                    "price": 10900,
+                    "variants": {},
+                    "variantsV2": {},
+                    "itemAttribute": {
+                        "vegClassifier": "VEG",
+                        "portionSize": "Serves 1"
+                    },
+                    "ribbon": {},
+                    "type": "ITEM",
+                    "itemBadge": {},
+                    "badgesV2": {},
+                    "ratings": {
+                        "aggregatedRating": {
+                            "rating": "4.3",
+                            "ratingCount": "21 ratings",
+                            "ratingCountV2": "21"
+                        },
+                        "ratingsPresentationConfig": {
+                            "bgGradient": {
+                                "colours": [
+                                    "#C8F9E5",
+                                    "#FFFFFF"
+                                ],
+                                "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                            },
+                            "ratingIconColor": "rating_very_good",
+                            "ratingTextColor": "rating_very_good",
+                            "ratingCountTextColor": "rating_very_good",
+                            "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                            "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                        }
+                    }
+                },
+                "analytics": {},
+                "hideRestaurantDetails": true
+            }
+        },
+        {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                    "id": "81890577",
+                    "name": "Jalapeno Pepper Dip",
+                    "category": "Appetizer",
+                    "description": "Serves 1 | Cheesy jalapeno dip 20 gm (49 Kcal/100g) Contains Cereals containing Gluten (Wheat) & Soya.",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/17/f0334c32-1b35-414e-803c-0114f826ac13_1e6c4d47-9b8e-4838-a347-a1309d97cbc6.jpg",
+                    "inStock": 1,
+                    "isVeg": 1,
+                    "price": 2857,
+                    "variants": {},
+                    "variantsV2": {},
+                    "itemAttribute": {
+                        "vegClassifier": "VEG",
+                        "portionSize": "Serves 1"
+                    },
+                    "ribbon": {},
+                    "type": "ITEM",
+                    "itemBadge": {},
+                    "badgesV2": {},
+                    "ratings": {
+                        "aggregatedRating": {
+                            "rating": "5.0",
+                            "ratingCount": "26 ratings",
+                            "ratingCountV2": "26"
+                        },
+                        "ratingsPresentationConfig": {
+                            "bgGradient": {
+                                "colours": [
+                                    "#C8F9E5",
+                                    "#FFFFFF"
+                                ],
+                                "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                            },
+                            "ratingIconColor": "rating_very_good",
+                            "ratingTextColor": "rating_very_good",
+                            "ratingCountTextColor": "rating_very_good",
+                            "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                            "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                        }
+                    }
+                },
+                "analytics": {},
+                "hideRestaurantDetails": true
+            }
+        },
+        {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                    "id": "81890576",
+                    "name": "Veg Mayonnaise Dip",
+                    "category": "Appetizer",
+                    "description": "Serves 1 | Veg mayonnaise dip 20 gm (55 Kcal/100g). Contains Cereals containing Gluten (Wheat) & Soya.",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/16/d5e73b0a-6921-4886-a20b-05df6f68884f_c6a23139-44b4-42ef-ab12-9e336dc783db.jpg",
+                    "inStock": 1,
+                    "isVeg": 1,
+                    "price": 2857,
+                    "variants": {},
+                    "variantsV2": {},
+                    "itemAttribute": {
+                        "vegClassifier": "VEG",
+                        "portionSize": "Serves 1"
+                    },
+                    "ribbon": {},
+                    "type": "ITEM",
+                    "itemBadge": {},
+                    "badgesV2": {},
+                    "ratings": {
+                        "aggregatedRating": {
+                            "rating": "4.8",
+                            "ratingCount": "16 ratings",
+                            "ratingCountV2": "16"
+                        },
+                        "ratingsPresentationConfig": {
+                            "bgGradient": {
+                                "colours": [
+                                    "#C8F9E5",
+                                    "#FFFFFF"
+                                ],
+                                "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                            },
+                            "ratingIconColor": "rating_very_good",
+                            "ratingTextColor": "rating_very_good",
+                            "ratingCountTextColor": "rating_very_good",
+                            "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                            "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                        }
+                    }
+                },
+                "analytics": {},
+                "hideRestaurantDetails": true
+            }
+        },
+        {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                "info": {
+                    "id": "110321193",
+                    "name": "Tomato Ketchup",
+                    "category": "Appetizer",
+                    "description": "Serves 1 | Ketchup sachet (11 Kcal/100g)",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/16/58a496f7-2659-4485-b709-ae792549355f_69a9a228-08cc-4d6c-94dd-52024b469510.jpg",
+                    "inStock": 1,
+                    "isVeg": 1,
+                    "price": 95,
+                    "variants": {},
+                    "variantsV2": {},
+                    "itemAttribute": {
+                        "vegClassifier": "VEG",
+                        "portionSize": "Serves 1"
+                    },
+                    "ribbon": {},
+                    "type": "ITEM",
+                    "itemBadge": {},
+                    "badgesV2": {},
+                    "ratings": {
+                        "aggregatedRating": {
+                            "rating": "4.4",
+                            "ratingCount": "99 ratings",
+                            "ratingCountV2": "99"
+                        },
+                        "ratingsPresentationConfig": {
+                            "bgGradient": {
+                                "colours": [
+                                    "#C8F9E5",
+                                    "#FFFFFF"
+                                ],
+                                "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                            },
+                            "ratingIconColor": "rating_very_good",
+                            "ratingTextColor": "rating_very_good",
+                            "ratingCountTextColor": "rating_very_good",
+                            "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                            "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                        }
+                    }
+                },
+                "analytics": {},
+                "hideRestaurantDetails": true
+            }
+        }
+    ],
+    "subtitleSuffix": {},
+    "image": "FOOD_CATALOG/IMAGES/CMS/2025/4/16/0d0300d1-65e2-4102-b275-b1db003a6e56_f752e6cd-3a83-47a2-a6d6-97d2c4c19402.jpg",
+    "categoryId": "13262658"
+}

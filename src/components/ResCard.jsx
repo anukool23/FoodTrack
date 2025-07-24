@@ -2,6 +2,7 @@ import { CDN_URL } from "../utils/constants";
 
 const ResCard = (props) => {
   const {cloudinaryImageId, name, cuisines, avgRatingString, sla } = props?.resData?.info;
+  console.log(props.resData);
   return (
     
     <div className="m-4 p-4 rounded-lg bg-slate-100 w-[200px] h-[400px]">
