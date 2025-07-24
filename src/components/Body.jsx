@@ -4,7 +4,6 @@ import { useContext, useEffect, useState } from "react";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
-import useOnlineStatus from "../utils/useOnlineStatus";
 import UserContext from "../utils/UserContext";
 
 const Body = () => {
